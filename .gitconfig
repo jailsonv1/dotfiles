@@ -1,0 +1,17 @@
+[user]
+	email = jav.jailson@gmail.com
+	name = jailson
+[core]
+	editor = vim --wait
+[push]
+  followTags = true
+[alias]
+  c = !git add --all && git commit -m
+  s = !git status -s
+  l = !git log --pretty=format:'%C(red)%h %C(white)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+  amend = !git add --all && git commit --amend --no-edit
+  count = !git shortlog -s --grep
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
