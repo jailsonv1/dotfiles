@@ -14,6 +14,7 @@ call plug#begin('~/.vim/plugged')
 
 " Stylization Language
 Plug 'styled-components/vim-styled-components'
+Plug 'nikvdp/ejs-syntax'
 Plug 'soywod/typescript.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'prettier/vim-prettier', {
